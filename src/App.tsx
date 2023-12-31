@@ -1,7 +1,11 @@
-import Message from './Message';
+import ListGroup from "./components/ListGroup";
 function App() {
-  return <div><Message/></div>
+  return (
+    <div>
+      <ListGroup />
+    </div>
+  );
 }
 
 export default App;
-// https://www.youtube.com/watch?v=SqcY0GlETPk Time=16:46
+// https://www.youtube.com/watch?v=SqcY0GlETPk Time=38:34
